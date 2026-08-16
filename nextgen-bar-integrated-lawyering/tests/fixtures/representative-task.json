@@ -1,0 +1,93 @@
+{
+  "fixture_id": "FIX-NEXTGEN-BAR-INTEGRATED-LAWYERING-001",
+  "track_id": "OPT-66-NEXTGEN-BAR",
+  "competency_id": "F2-COMP-66-NEXTGEN-BAR-001",
+  "status": "READY_FOR_HUMAN_DRY_RUN",
+  "source_ids": [
+    "F2-66-005"
+  ],
+  "construct_boundary": "Original educational pilot for NextGen Bar / integrated lawyering reasoning; not a credential, license, professional authorization, or high-impact decision.",
+  "task_contract": {
+    "purpose": "Run one bounded learner/reviewer task and inspect the evidence record.",
+    "role": "supervised legal-task organizer",
+    "audience": "learner and qualified reviewer",
+    "format": "authority log, fact / issue ledger, rule-fact analysis, options matrix, uncertainty and escalation record.",
+    "time_limit": "60 minutes",
+    "allowed_materials": [
+      "this original synthetic fixture",
+      "learner notes",
+      "clearly identified public sources where applicable"
+    ],
+    "prohibited_actions": [
+      "invent source content",
+      "use confidential or real-person data",
+      "present the output as professional authorization"
+    ],
+    "decision_rights": "provide formative feedback and request review; no credentialing or final consequential decision",
+    "accessibility": "plain-language, screen-reader-compatible, and equivalent representations are permitted"
+  },
+  "stimulus": {
+    "type": "original_synthetic_bounded_packet_excerpt",
+    "notice": "The fixture is educational and non-secure.",
+    "excerpt": "## `OPT-66-NEXTGEN-BAR` — Authority, facts, issues, and options\n\n**Learner target:** Produce a bounded professional reasoning record from supplied fictional materials.\n\n**Fictional packet:** A city rule excerpt, a fictional timeline, a client objective, and two conflicting factual statements. The packet is educational and not a real jurisdiction or legal matter.\n\n**Learner task:** Identify the role, purpose, authority, facts, unknowns, issues, and possible next steps. Draft a short options memo that labels assumptions and requests professional review where the fictional packet is insufficient.\n\n**Required artifact:** authority log, fact / issue ledger, rule-fact analysis, options matrix, uncertainty and escalation record.\n\n**Nonmodel:** A confident legal conclusion with no authority locator or jurisdiction statement.  \n**Feedback move:** Ask “Which source controls this statement, and what would change if the missing fact were different?”\n\n**Agent handoff:** Agent may organize supplied materials and draft competing structures; human reviewer confirms authority, scope, and final language.\n\n**Exit test:** Add a second jurisdiction label that conflicts with the first. The learner must..."
+  },
+  "learner_deliverables": [
+    "authority log, fact / issue ledger, rule-fact analysis, options matrix, uncertainty and escalation record.",
+    "uncertainty and limitation record",
+    "review/escalation request"
+  ],
+  "evidence_envelope": {
+    "required_fields": [
+      "task_contract",
+      "source_ids",
+      "evidence",
+      "uncertainty",
+      "review_status"
+    ],
+    "minimum_evidence": [
+      "source traceability",
+      "boundary statement",
+      "at least one limitation or unresolved question",
+      "human-review route"
+    ]
+  },
+  "machine_checks": [
+    "required fields are present",
+    "source IDs are nonempty",
+    "rights and safety flags are declared",
+    "review status is present"
+  ],
+  "human_review": [
+    "Qualified legal review owns legal accuracy, confidentiality, professional responsibility, and consequential use.",
+    "substantive interpretation",
+    "accessibility and fairness",
+    "whether the output crosses the boundary"
+  ],
+  "stop_conditions": [
+    "real or confidential data are introduced",
+    "source or rights status is unclear",
+    "the task crosses into a live professional decision",
+    "the output is presented as a credential or sign-off"
+  ],
+  "evaluator": {
+    "dimensions": [
+      "traceability",
+      "construct evidence",
+      "uncertainty",
+      "boundary discipline",
+      "communication"
+    ],
+    "machine_decision": "structural checks only",
+    "human_decision": "qualified reviewer decides substantive adequacy and escalation",
+    "no_credentialing": true
+  },
+  "qa": {
+    "original_fixture": true,
+    "secure_content_reproduced": false,
+    "confidential_data": false,
+    "human_dry_run": "pending",
+    "known_risks": [
+      "Use fictional or public educational matters only; never provide live legal advice or practice authorization."
+    ]
+  }
+}

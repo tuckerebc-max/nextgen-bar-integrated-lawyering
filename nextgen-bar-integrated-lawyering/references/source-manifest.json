@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "track_id": "OPT-66-NEXTGEN-BAR",
+  "competency_id": "F2-COMP-66-NEXTGEN-BAR-001",
+  "source_ids": [
+    "F2-66-005"
+  ],
+  "source_snapshot_date": "2026-08-09",
+  "source_boundary": "Scoped source evidence; not the competency itself.",
+  "project": "Fork 2 approved textbook-skill tracks",
+  "corpus_boundary": "Official and high-authority sources listed in the Fork 2 source ledger for eight user-approved options; no protected exam items, live client data, real-patient data, or full university curricula treated as evidence.",
+  "generated_at": "2026-08-09",
+  "migration": {
+    "source_schema": "F2-LEDGER-001",
+    "deduplication_notes": [
+      "Source IDs are Fork 2 lineage IDs and remain linked to the Markdown and JSONL ledger.",
+      "No quotations are promoted; candidate packets use paraphrase and source-grounded claims only."
+    ]
+  },
+  "sources": [
+    {
+      "source_id": "F2-66-005",
+      "author_or_organization": "National Conference of Bar Examiners",
+      "title": "NextGen UBE content scope and blueprint",
+      "date": "Current source accessed 2026-08-09",
+      "format": "HTML",
+      "publication_status": "authoritative-standard",
+      "authority_role": "official licensure sponsor",
+      "independence": "Primary issuing-body source",
+      "locator_system": "URL and source-ledger record",
+      "supplied_filename": null,
+      "version_or_revision": "Current page or version noted in source ledger",
+      "coverage": "integrated lawyering skills",
+      "use_boundary": "Construct and evidence crosswalk only; not a license, admissions decision, or universal PhD standard",
+      "notes": "https://www.ncbex.org/exams/nextgen/content-scope"
+    }
+  ],
+  "provenance": [
+    {
+      "provenance_id": "P-F2-66-005",
+      "container_source_id": "F2-66-005",
+      "container_locator": "official URL in source ledger",
+      "claimed_original_source_id": "F2-66-005",
+      "claimed_original_locator": "official document/page",
+      "transformation": "official source -> Fork 2 ledger -> approved-track crosswalk",
+      "verification_basis": "official URL opened or inspected during current research pass",
+      "verification_status": "verified-working-source",
+      "verified_at": "2026-08-09",
+      "notes": "Full technical, rights, and version audit remains a track-level next step."
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "E-F2-66-BAR-1",
+      "statement": "NextGen UBE specifies legal research, legal writing, issue spotting and analysis, investigation and evaluation, counseling, negotiation, and client relationship management.",
+      "evidence_type": "competency-definition",
+      "source_ids": [
+        "F2-66-005"
+      ],
+      "provenance_ids": [
+        "P-F2-66-005"
+      ],
+      "theme_ids": [
+        "T-F2-66-BAR"
+      ],
+      "locator_or_basis": "NCBE NextGen Content Scope",
+      "authority_role": "official licensure sponsor",
+      "claim_status": "supported",
+      "publication_condition": "ready",
+      "confidence": "high",
+      "contrary_evidence_ids": [],
+      "caution": "Current scope and jurisdiction must be versioned."
+    },
+    {
+      "evidence_id": "E-F2-66-BAR-2",
+      "statement": "Skills-focused questions may provide necessary legal resources.",
+      "evidence_type": "task-model",
+      "source_ids": [
+        "F2-66-005"
+      ],
+      "provenance_ids": [
+        "P-F2-66-005"
+      ],
+      "theme_ids": [
+        "T-F2-66-BAR"
+      ],
+      "locator_or_basis": "NCBE NextGen Content Scope",
+      "authority_role": "official licensure sponsor",
+      "claim_status": "supported",
+      "publication_condition": "conditional",
+      "confidence": "high",
+      "contrary_evidence_ids": [],
+      "caution": "Do not copy protected tasks."
+    }
+  ],
+  "themes": [
+    {
+      "theme_id": "T-F2-66-BAR",
+      "question_or_claim": "What integrated lawyering skills are specified by the NextGen UBE?",
+      "inclusion_test": "Must include task, authority, fact, professional, and jurisdiction boundaries.",
+      "supporting_source_ids": [
+        "F2-66-005"
+      ],
+      "supporting_evidence_ids": [
+        "E-F2-66-BAR-1",
+        "E-F2-66-BAR-2"
+      ],
+      "contrary_evidence_ids": [],
+      "quote_ids": [],
+      "case_ids": [],
+      "synthesis": "The blueprint supports a situated lawyering-task model, not unsupervised legal practice.",
+      "claim_status": "supported",
+      "publication_condition": "conditional",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [],
+  "cases": [],
+  "gaps": [
+    {
+      "gap_id": "G-F2-66-BAR",
+      "question": "Current NextGen UBE blueprint, sample-task rights, and jurisdiction / professional responsibility scope",
+      "why_it_matters": "technical, legal, rights",
+      "missing_evidence_type": "source, technical, rights, or professional-review evidence",
+      "downstream_effect": "Qualified legal review required",
+      "disposition": "verify"
+    }
+  ],
+  "handoff": {
+    "primary_source_ids": [
+      "F2-66-005"
+    ],
+    "primary_evidence_ids": [
+      "E-F2-66-BAR-1",
+      "E-F2-66-BAR-2"
+    ],
+    "primary_theme_ids": [
+      "T-F2-66-BAR"
+    ],
+    "verified_primary_quote_ids": [],
+    "conditional_quote_ids": [],
+    "prohibited_quote_ids": [],
+    "protected_case_ids": [],
+    "unresolved_gap_ids": [
+      "G-F2-66-BAR"
+    ],
+    "inherited_use_notes_authority": "upstream-context-only",
+    "outline_boundary": "Evidence and competency handoff only; no final section order or word allocation."
+  },
+  "counts": {
+    "sources": 1,
+    "provenance": 1,
+    "evidence": 2,
+    "themes": 1,
+    "quotes": 0,
+    "cases": 0,
+    "gaps": 1
+  }
+}

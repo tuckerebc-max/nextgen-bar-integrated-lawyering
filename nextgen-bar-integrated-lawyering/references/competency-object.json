@@ -1,0 +1,263 @@
+{
+  "competency_id": "F2-COMP-66-NEXTGEN-BAR-001",
+  "name": "Integrated lawyering reasoning under supervision",
+  "version": "0.1",
+  "domain": "6.6 professional legal reasoning",
+  "source_provenance": [
+    {
+      "source_id": "F2-66-005",
+      "layer": "SOURCE",
+      "role": "NCBE NextGen content scope and blueprint"
+    }
+  ],
+  "construct_definition": "Frame a legal matter, research and evaluate authority and facts, analyze issues, develop options, communicate within professional role, and escalate when jurisdiction, uncertainty, or scope requires review. The examination is not authorization to practice law.",
+  "claims": [
+    {
+      "layer": "SOURCE",
+      "statement": "The NextGen UBE names legal research, legal writing, issue spotting and analysis, investigation and evaluation, client counseling and advising, negotiation and dispute resolution, and client relationship and management.",
+      "source_ids": [
+        "F2-66-005"
+      ]
+    },
+    {
+      "layer": "SOURCE",
+      "statement": "Necessary legal resources may be provided for skills-focused questions.",
+      "source_ids": [
+        "F2-66-005"
+      ]
+    },
+    {
+      "layer": "INFERENCE",
+      "statement": "A textbook should teach integrated work products and professional handoffs rather than doctrine memorization alone.",
+      "source_ids": [
+        "F2-66-005"
+      ]
+    }
+  ],
+  "subskills": [
+    {
+      "id": "BAR-S1",
+      "name": "matter, role, jurisdiction, and confidentiality orientation"
+    },
+    {
+      "id": "BAR-S2",
+      "name": "authority and fact control"
+    },
+    {
+      "id": "BAR-S3",
+      "name": "issue spotting and rule-fact application"
+    },
+    {
+      "id": "BAR-S4",
+      "name": "options, counseling, and negotiation"
+    },
+    {
+      "id": "BAR-S5",
+      "name": "professional writing and escalation"
+    }
+  ],
+  "evidence_requirements": [
+    {
+      "id": "BAR-E1",
+      "evidence": "authority log with source and jurisdiction"
+    },
+    {
+      "id": "BAR-E2",
+      "evidence": "fact and issue ledger"
+    },
+    {
+      "id": "BAR-E3",
+      "evidence": "rule-fact analysis with counterarguments"
+    },
+    {
+      "id": "BAR-E4",
+      "evidence": "options and uncertainty record"
+    },
+    {
+      "id": "BAR-E5",
+      "evidence": "review and escalation record"
+    }
+  ],
+  "task_archetypes": [
+    {
+      "id": "BAR-T1",
+      "task": "legal research packet"
+    },
+    {
+      "id": "BAR-T2",
+      "task": "issue-analysis memo"
+    },
+    {
+      "id": "BAR-T3",
+      "task": "investigation and evaluation plan"
+    },
+    {
+      "id": "BAR-T4",
+      "task": "client-advice or negotiation plan"
+    },
+    {
+      "id": "BAR-T5",
+      "task": "professional handoff"
+    }
+  ],
+  "quality_dimensions": [
+    {
+      "id": "Q1",
+      "name": "authority fidelity"
+    },
+    {
+      "id": "Q2",
+      "name": "issue and fact coverage"
+    },
+    {
+      "id": "Q3",
+      "name": "rule-fact reasoning"
+    },
+    {
+      "id": "Q4",
+      "name": "audience and professional fit"
+    },
+    {
+      "id": "Q5",
+      "name": "uncertainty, jurisdiction, and escalation"
+    }
+  ],
+  "scoring_rules": [
+    {
+      "layer": "SOURCE",
+      "rule": "Use current NCBE blueprint distributions after source lock."
+    },
+    {
+      "layer": "EVALUATOR_DESIGN",
+      "rule": "Unsupported law or jurisdiction is a critical failure; polished prose cannot compensate."
+    }
+  ],
+  "performance_levels": [
+    {
+      "level": "emerging",
+      "description": "organizes facts or sources but misses scope, issues, or uncertainty"
+    },
+    {
+      "level": "proficient",
+      "description": "supports analysis and options with authority, facts, audience fit, and review conditions"
+    },
+    {
+      "level": "transfer",
+      "description": "handles a new matter with incomplete facts and escalates appropriately"
+    }
+  ],
+  "failure_modes": [
+    {
+      "id": "FM1",
+      "name": "hallucinated authority"
+    },
+    {
+      "id": "FM2",
+      "name": "jurisdiction drift"
+    },
+    {
+      "id": "FM3",
+      "name": "confidentiality breach"
+    },
+    {
+      "id": "FM4",
+      "name": "agent presented as counsel"
+    }
+  ],
+  "constraints": [
+    {
+      "id": "C1",
+      "constraint": "fictional or public educational matters only"
+    },
+    {
+      "id": "C2",
+      "constraint": "no live legal advice or unauthorized-practice claims"
+    },
+    {
+      "id": "C3",
+      "constraint": "qualified legal review before consequential use"
+    }
+  ],
+  "risk_considerations": [
+    {
+      "risk": "legal harm",
+      "control": "source and jurisdiction verification plus human review"
+    },
+    {
+      "risk": "privacy",
+      "control": "no real client data in challenge sets"
+    },
+    {
+      "risk": "rights",
+      "control": "no copying protected NCBE materials"
+    }
+  ],
+  "agent_instructions": {
+    "allowed_role": "organize supplied authority, facts, issues, and draft alternatives",
+    "must_do": [
+      "state jurisdiction and scope",
+      "cite authority",
+      "surface missing facts",
+      "escalate uncertainty"
+    ],
+    "must_not_do": [
+      "invent law",
+      "give live advice",
+      "select final legal position"
+    ],
+    "human_accountability": "qualified human reviewer owns legal judgment"
+  },
+  "evaluator_checks": [
+    {
+      "id": "EV1",
+      "check": "authority and jurisdiction resolve"
+    },
+    {
+      "id": "EV2",
+      "check": "facts, assumptions, and unknowns are distinct"
+    },
+    {
+      "id": "EV3",
+      "check": "rule-fact reasoning and counterarguments are visible"
+    },
+    {
+      "id": "EV4",
+      "check": "scope and escalation are explicit"
+    }
+  ],
+  "test_cases": [
+    {
+      "id": "TC1",
+      "fixture": "missing jurisdiction",
+      "expected": "NEEDS_PROFESSIONAL_REVIEW"
+    },
+    {
+      "id": "TC2",
+      "fixture": "conflicting supplied authority and fact",
+      "expected": "conflict ledger and clarification"
+    },
+    {
+      "id": "TC3",
+      "fixture": "hallucinated citation",
+      "expected": "critical failure"
+    },
+    {
+      "id": "TC4",
+      "fixture": "fictional matter with public sources",
+      "expected": "source-grounded options memo"
+    }
+  ],
+  "related_competencies": [
+    "ANRI-DOM-CR-001",
+    "ANRI-DOM-WR-001",
+    "ANRI-DOM-ARG-001"
+  ],
+  "open_questions": [
+    {
+      "question": "Which NCBE sample performance tasks can be linked or paraphrased within rights limits?"
+    },
+    {
+      "question": "Which jurisdiction-specific professional-responsibility sources should be added first?"
+    }
+  ]
+}

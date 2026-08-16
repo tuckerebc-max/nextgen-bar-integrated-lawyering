@@ -1,0 +1,6 @@
+interface:
+  display_name: "NextGen Bar Integrated Lawyering"
+  short_description: "Structure supervised legal-task reasoning"
+  default_prompt: "Use $nextgen-bar-integrated-lawyering for a source-grounded, bounded NextGen Bar / integrated lawyering reasoning workflow."
+policy:
+  allow_implicit_invocation: true

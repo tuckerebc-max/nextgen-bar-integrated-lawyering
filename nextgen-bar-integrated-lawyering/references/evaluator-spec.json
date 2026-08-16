@@ -1,0 +1,51 @@
+{
+  "evaluator_id": "OPT-66-NEXTGEN-BAR-EVALUATOR-001",
+  "track_id": "OPT-66-NEXTGEN-BAR",
+  "competency_id": "F2-COMP-66-NEXTGEN-BAR-001",
+  "status": "EVALUATOR_DRAFT",
+  "primary_evidence": [
+    "matter record",
+    "authority log",
+    "fact / issue ledger",
+    "rule-fact analysis",
+    "options memo",
+    "review / escalation record."
+  ],
+  "dimensions": [
+    "authority fidelity",
+    "jurisdiction",
+    "issue and fact coverage",
+    "rule-fact reasoning",
+    "options / consequences",
+    "audience fit",
+    "uncertainty",
+    "confidentiality",
+    "escalation."
+  ],
+  "critical_failures": [
+    "invented law",
+    "wrong jurisdiction",
+    "confidentiality breach",
+    "advice outside scope",
+    "or unsupported legal conclusion."
+  ],
+  "challenge_set_design": [
+    "supplied public authorities",
+    "incomplete facts",
+    "conflicting authority",
+    "client-facing communication",
+    "negotiation / dispute-resolution scenario",
+    "deliberate jurisdiction mismatch."
+  ],
+  "improvement_loop": "diagnose authority or scope failure → revise source-control and jurisdiction instructions → rerun with an unseen fictional matter → qualified reviewer checks legal fidelity.",
+  "quality_dimensions": [
+    "authority fidelity",
+    "issue and fact coverage",
+    "rule-fact reasoning",
+    "audience and professional fit",
+    "uncertainty, jurisdiction, and escalation"
+  ],
+  "human_review_required": true,
+  "no_credentialing": true,
+  "source_boundary": "Project evaluator design until source-specific validity and human-review gates close."
+}
